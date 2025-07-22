@@ -560,6 +560,15 @@ body {
   transition: all 0.4s;
 }
 
+.price-list-card-btn-contact {
+  text-decoration: none;
+  color: var(--color-grey-dark);
+}
+
+.price-list-card-btn-contact:hover {
+  color: var(--color-off-white);
+}
+
 .price-list-card-item-content {
   width: 100%;
   background-color: var(--color-off-white);
@@ -737,6 +746,7 @@ body {
   gap: 70px;
   padding-right: 70px;
   background-color: var(--color-grey-dark);
+  margin-bottom: -4px;
 }
 
 .img-section-main-block {
@@ -759,6 +769,7 @@ body {
 
 .img-section-main-content-bottom-text {
   font-style: italic;
+  font-size: 20px;
 }
 
 /* FOOTER */
@@ -840,12 +851,33 @@ body {
 }
 
 
+/* DOCUMENT PAGE */
+
+.pdf-main {
+  background-color: var(--color-grey-dark);
+}
+
+.pdf-title {
+  margin: 0;
+  padding: 40px;
+  color: var(--color-off-white);
+  letter-spacing: 5px;
+  font-weight: 550;
+}
+
+
 
 /* ECRAN ADAPTATIONS */
 
 /* 1400 */
 
 @media(max-width: 1400px) {
+
+  /* slider */
+
+  .slider-item-bottom-point-list {
+    font-size: 16px;
+  }
 
   /* cards section */
 
@@ -1046,8 +1078,12 @@ body {
     justify-content: space-between;
   }
 
+  .footer-info-items {
+    order: 1;
+  }
+
   .footer-contact-btn {
-    text-wrap: wrap;
+    display: none;
   }
 
   .footer-contact-link {
@@ -1131,10 +1167,15 @@ body {
     line-height: 28px;
   }
 
+  .img-section-main-content-bottom-text {
+    font-size: 14px;
+  }
+
   /* footer */
 
-  .footer-info-item {
-    display: none;
+  .footer-info-items {
+    font-size: 12px;
+    gap: 6px;
   }
 
 }
@@ -1369,7 +1410,7 @@ body {
   }
 
   .img-section-main-block-photo {
-    width: 175%;
+    width: 187%;
   }
 
   .img-section-main-content {
@@ -1547,8 +1588,8 @@ body {
 
   /* footer */
 
-  .footer-contact-item {
-    display: none;
+  .footer-info-items {
+    font-size: 8px;
   }
 
 }
@@ -1751,7 +1792,7 @@ body {
     font-size: 10px;
   }
 
-}  
+}
 
 
 

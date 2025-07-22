@@ -261,19 +261,19 @@ const priceListExamens = {
 const priceListJuniorMiddle = {
   group: [
     {
-      title: 'Абонимент на месяц',
+      title: 'Абонемент на месяц',
       subject: '1',
       lessons: '8',
       price: '8 000',
     },
     {
-      title: 'Абонимент на месяц',
+      title: 'Абонемент на месяц',
       subject: '2',
       lessons: '16',
       price: '16 000',
     },
     {
-      title: 'Абонимент на месяц',
+      title: 'Абонемент на месяц',
       subject: '3',
       lessons: '24',
       price: '24 000',
@@ -284,23 +284,23 @@ const priceListJuniorMiddle = {
     {
       title: '',
       subject: '1',
-      time: '45',
+      time: '60',
       price: '1 800',
     },
     {
-      title: 'Абонимент на месяц',
+      title: 'Абонемент на месяц',
       subject: '1',
       lessons: '8',
       price: '12 000',
     },
     {
-      title: 'Абонимент на месяц',
+      title: 'Абонемент на месяц',
       subject: '2',
       lessons: '16',
       price: '24 000',
     },
     {
-      title: 'Абонимент на месяц',
+      title: 'Абонемент на месяц',
       subject: '3',
       lessons: '24',
       price: '48 000',
